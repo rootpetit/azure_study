@@ -1,0 +1,15 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "FOUNDRY_PROJECT_ENDPOINT": "https://<foundry-resource>.services.ai.azure.com/api/projects/<project-name>",
+    "FOUNDRY_AUTH_MODE": "service_principal",
+    "AZURE_TENANT_ID": "<azure-resource-tenant-id>",
+    "AZURE_CLIENT_ID": "<foundry-caller-app-client-id>",
+    "AZURE_CLIENT_SECRET": "<foundry-caller-app-client-secret>",
+    "INQUIRY_AGENT_NAME": "inquiry-agent",
+    "RAG_AGENT_NAME": "rag-agent",
+    "BOT_FUNCTION_SHARED_SECRET": "<same-secret-as-app-service>"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.19/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.19",
+  "version": "1.0.0",
+  "id": "00000000-0000-0000-0000-000000000000",
+  "developer": {
+    "name": "Azure Study",
+    "websiteUrl": "https://example.com",
+    "privacyUrl": "https://example.com/privacy",
+    "termsOfUseUrl": "https://example.com/terms"
+  },
+  "name": {
+    "short": "Azure RAG Bot",
+    "full": "Azure Study RAG Bot"
+  },
+  "description": {
+    "short": "Azure 学習用 RAG Bot",
+    "full": "Teams から Azure Bot Service、App Service、Azure Functions、Microsoft Foundry Agent Service、Blob Storage 由来の RAG を疎通する学習用 Bot です。"
+  },
+  "icons": {
+    "outline": "outline.png",
+    "color": "color.png"
+  },
+  "accentColor": "#2563EB",
+  "bots": [
+    {
+      "botId": "00000000-0000-0000-0000-000000000000",
+      "scopes": [
+        "personal",
+        "team",
+        "groupchat"
+      ],
+      "supportsFiles": false,
+      "isNotificationOnly": false
+    }
+  ],
+  "validDomains": [
+    "<app-service-name>.azurewebsites.net"
+  ],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ]
+}
